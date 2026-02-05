@@ -41,7 +41,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
-          enableness: true
+          static_site_generator: next
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
